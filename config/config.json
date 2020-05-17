@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "azure-application-insights-tenant-monitor-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/azureApplicationInsightsTenantMonitor/AzureApplicationInsightsTenantMonitorApplicationCustomizer.js",
+          "manifest": "./src/extensions/azureApplicationInsightsTenantMonitor/AzureApplicationInsightsTenantMonitorApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AzureApplicationInsightsTenantMonitorApplicationCustomizerStrings": "lib/extensions/azureApplicationInsightsTenantMonitor/loc/{locale}.js"
+  }
+}

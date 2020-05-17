@@ -1,0 +1,7 @@
+{
+  "AZURE_APPINSIGHTS_INSTRUMENTATION_KEY": "63YoMama-2e26-4Wrs-8Pnk-0fArmyBootsd",
+  "AZURE_APPINSIGHTS_APP_NAME": "Azure Application Insights SPO Tenant Monitor",
+  "AZURE_APPINSIGHTS_APP_VERSION": "${{package.json|version}}",
+  "AZURE_APPINSIGHTS_SOLUTION_ID": "${{package-solution.json|id}}",
+  "AZURE_APPINSIGHTS_SOLUTION_VERSION": "${{package-solution.json|version}}"
+}

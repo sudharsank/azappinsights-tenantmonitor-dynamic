@@ -1,0 +1,7 @@
+{
+  "AZURE_APPINSIGHTS_INSTRUMENTATION_KEY": "00000000-0000-0000-0000-000000000000",
+  "AZURE_APPINSIGHTS_APP_NAME": "${{package.json|name}}",
+  "AZURE_APPINSIGHTS_APP_VERSION": "${{package.json|version}}",
+  "AZURE_APPINSIGHTS_SOLUTION_ID": "${{package-solution.json|id}}",
+  "AZURE_APPINSIGHTS_SOLUTION_VERSION": "${{package-solution.json|version}}"
+}

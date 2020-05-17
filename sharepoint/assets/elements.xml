@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AzureApplicationInsightsTenantMonitor"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="38bdbfef-4e4d-4a42-bff3-3090900763b3"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+</Elements>
